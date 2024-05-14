@@ -1,0 +1,46 @@
+<!---difference between div (class) and h1(class)
+    -div tag is a container
+    -it stores data in it
+    -it applies changes to the whole block of code
+    -where as h1 applies to it's particular line of code
+    -In css we use "."for name and "#" for id--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .line1{
+            color: rgb(211, 191, 32);
+            background-color: aquamarine;
+            height: 200px;
+        }
+        .line2{
+            color: blueviolet;
+            background-color: aquamarine;
+            height: 200;
+        }
+        p{
+            color: rgba(83, 2, 104, 0.614);
+        }
+        #div2{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="line1">
+        <h1>This is the example of div tag</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur repellat dolores maiores ratione incidunt assumenda laborum, magni ad, tenetur sapiente voluptate autem architecto?</p>
+    </div>
+    <h1 id="line2">Line 2</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, saepe?</p>
+    <h3>Header</h3>
+    <div id="div2">
+        <h1 id="line2">Line 2</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, saepe?</p>
+        <h3>Header</h3>
+    </div>
+</body>
+</html>

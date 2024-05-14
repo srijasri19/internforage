@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <style>
+        input{
+          border: 1px solid black;  
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Application Form</h1>
+    <label >Name</label>
+    <input type="text">
+    <br>
+    <label for="">Password</label>
+    <input type="password">
+    <br>
+    <label for="">Gender</label>
+    <input type="radio" name= "Gender" value="Male">Male
+    <input type="radio" name="Gender" value="Female">Female
+    <br>
+    <label for="">Enter your age</label>
+    <input type="number">
+    <br>
+    <label for="">Enter your date of birth</label>
+    <input type="date">
+    <br>
+    <label for="">Enter your email address</label>
+    <input type="email">
+    <br>
+    <label for="">Enter the birth month</label>
+    <input type="month">
+    <br>
+    <label for="">Select the preferred language</label>
+    <input type="checkbox" >Java
+    <input type="checkbox" >Python
+    <input type="checkbox" >C
+    <br>
+    <label for="">Education</label>
+    <select class="Education">
+    <option value="B-Tech">B-Tech</option>
+    <option value="Degree">Degree</option>
+    <option value="M-Tech">M-Tech</option>
+    <option value="MBA">MBA</option>
+    <option value="Lawyer">Lawyer</option></select>
+    <br>
+    <dl>
+        <dt><label for="">Proficiency in language</label></dt>
+        <dd>-English <input type="range" value="English"></dd>
+        <dd>-Hindi <input type="range" value="Hindi"></dd>
+        <dd>-Telugu <input type="range" value="Telugu"></dd>
+    </dl>
+    <br>
+    <input type="button" value="Cancel" >
+    <input type="button" value="Submit">
+    <br>
+</body>
+</html>
